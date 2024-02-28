@@ -19,6 +19,7 @@ public class Main {
                 System.out.print("User tidak ditemukan");
             }
         }
+
         if (login == 2) {
             System.out.print("Masukkan user : ");
             username = objInput.next();
@@ -30,6 +31,7 @@ public class Main {
                 System.out.print("User admin tidak ditemukan");
             }
         }
+
         if (login == 3){
             System.out.print("Selamat berkunjung kembali");
         }
