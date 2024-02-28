@@ -25,7 +25,7 @@ public class Main {
             username = objInput.next();
             System.out.print("Masukkan pass : ");
             password = objInput.next();
-            if (username.equals("admin14") && password.equals("admin14022005")) {
+            if (username.equals("admin14") ||  password.equals("admin14022005")) {
                 System.out.print("Berhasil login sebagai admin");
             } else {
                 System.out.print("User admin tidak ditemukan");
