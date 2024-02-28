@@ -6,7 +6,7 @@ public class Main {
 
         Scanner objInput = new Scanner(System.in);
 
-        System.out.print("=== Library ===\n1. Student\n2. Admin\n3. Exit\n   ");
+        System.out.print("=== Library ===\n1. Login Student\n2. Login Admin\n3. Exit\n   ");
         System.out.print("Masukkan Pilihan: ");
 
         login = objInput.nextInt();
@@ -25,7 +25,7 @@ public class Main {
             username = objInput.next();
             System.out.print("Masukkan pass : ");
             password = objInput.next();
-            if (username.equals("admin") && password.equals("admin2")) {
+            if (username.equals("admin14") && password.equals("admin14022005")) {
                 System.out.print("Berhasil login sebagai admin");
             } else {
                 System.out.print("User admin tidak ditemukan");
