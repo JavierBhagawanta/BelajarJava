@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int login;
-
         String nim, username, password;
+
         Scanner objInput = new Scanner(System.in);
 
         System.out.print("=== Library ===\n1. Student\n2. Admin\n3. Exit\n   ");
@@ -13,7 +13,7 @@ public class Main {
         if (login == 1){
             System.out.print("Masukkan NIM : ");
             nim = objInput.next();
-            if (nim.length() == 15 && nim.equals("202310370311314")){
+            if (nim.length() == 15 ){
                 System.out.print("Berhasil Login");
             } else {
                 System.out.print("User tidak ditemukan");
